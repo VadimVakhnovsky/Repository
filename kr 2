@@ -1,0 +1,33 @@
+/*Put some basic styles here */
+/*344D67 6ECCAF ADE792 F3ECB0*/
+#block1{
+    background: #00FFFF;
+}
+#block 2{
+    background: #ADFF2F;
+
+}
+#block 3{
+    background: #FF8C00;
+
+}
+#block 4{
+    background: #FFD700;
+    
+}
+.bgc1{
+background: #00FFFF;
+}
+.bgc2{
+    background:#ADFF2F;
+
+}
+.bgc3{
+    background:#FF8C00;
+
+
+}
+.bgc4{
+    background:#FFD700;
+}
+#block1,#block2,#block3,#block4
