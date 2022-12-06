@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Контрольна робота</title>
+    <style>
+       #s {
+    background-color:bisque;
+    color: #801414;
+}
+#ss {
+    background-color:lightgoldenrodyellow;
+    color: darkolivegreen;
+}
+#sss {
+    background-color: burlywood;
+    color: black;
+}
+#ssss {
+    background-color: lightgrey;
+    color: blueviolet;
+}
+
+#one {
+    border: 1px solid black;
+    background-color:darkblue;
+    color: #ffffff;
+    font-size: 120%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#two {
+    border: 1px solid black;
+    background-color:olive;
+    color:white;
+    font-size: 120%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#three {
+    border: 1px solid black;
+    background-color:darkslategrey;
+    color: wheat;
+    font-size: 120%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#four {
+    border: 1px solid black;
+    background-color:darkolivegreen;
+    color: royalblue;
+    font-size: 120%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.gol {
+    position: relative;
+    float: right;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.start {
+    font-family: 'Zen Dots', cursive;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 12px;
+}
+@media (max-width: 767.99px) {
+    .main{
+        flex-direction: column;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+} 
+@media (min-width: 768px) and (max-width: 991.99px) { 
+    .col-md-6 {
+        width: 50%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .col-vlg-3 {
+        width: 25%;
+    }
+}
+    </style>
+    </head>
+    <body>
+    <div class="start"><h1>Контрольна робота</h1>
+    <h2>Вахновського Вадима Сергійовича</h2>
+    <h3>Варіант 2</h3></div>
+
+    <div class="gol">
+    <div id="s" class="col-sm-12 col-md-6 col-lg-4 col-vlg-3 item"><h2 id="one">Текст</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus praesentium illo doloribus odio ullam accusamus dolor rem reprehenderit dolores. Id!</p></div>
+    
+    <div id="ss" class="col-sm-12 col-md-6 col-lg-4 col-vlg-3 item"><h2 id="two">Список</h2>
+            <ul>
+                <li>Чай</li>
+                <li>Овочі:
+                    <ol>
+                        <li>Капуста</li>
+                        <li>Морква</li>
+                        <li>буряк</li>
+                    </ol>
+                </li>
+                <li>Сир</li>
+                <li>Сметана</li>
+                <li>Кетчуп</li>
+                </ul>
+       
+    </div>
+
+    <div id="sss" class="col-sm-12 col-md-6 col-lg-4 col-vlg-3 item"><h2 id="three">Таблиця</h2>
+        <table>
+                <tr>
+                    <th>Країна</th>
+                    <th>Населення</th>
+                </tr>
+                <tr>
+                    <td>Дублін</td>
+                    <td>1,1 млн ос.</td>
+                </tr>
+                <tr>
+                    <td>Ер-Ріяд</td>
+                    <td>7,6 млн ос.</td>
+                </tr>
+                <tr>
+                    <td>Мюнхен</td>
+                    <td>1,4 млн ос.</td>
+                </tr>
+                <tr>
+                     <td>Детройт</td>
+                     <td>0,6 млн ос.</td>
+                </tr>
+                       
+        </table>
+    </div>
+    
+    <div id="ssss" class="col-sm-12 col-md-6 col-lg-12 col-vlg-3 item"><h2 id="four">Зображення</h2>
+        <img id="im1" src="320x240.gif" alt="Сайт не працює" class="img" width="320" height="240">
+    </div>
+    <p><a href="https://place-hold.it/320x240/" target="_blank">Посилання на зображення</a></p>
+    </div>
+    </body>
+    </html>
